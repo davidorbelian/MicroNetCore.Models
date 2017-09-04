@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.0.2-alpha</Version>
+    <Authors>David Orbelian</Authors>
+    <Company>David Orbelian</Company>
+    <Product>MicroNetCore</Product>
+    <Description>Library for marking up models for MicroNetCore.</Description>
+    <Copyright>Copyright (c) 2017 David Orbelian</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/davidorbelian/MicroNetCore.Models/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/davidorbelian/MicroNetCore.Models</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/davidorbelian/MicroNetCore.Models</RepositoryUrl>
+    <PackageTags>Model Markup</PackageTags>
+    <PackageReleaseNotes>Alpha release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
