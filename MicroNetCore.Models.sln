@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05A23D3F-D055-4085-BBEA-73B9B710F8F9}"
 EndProject
@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A483057A-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{46EB5FA1-8084-461E-98FD-12DCB565F898}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroNetCore.Models", "src\MicroNetCore.Models\MicroNetCore.Models.csproj", "{38FFE18B-69F9-4669-AC75-763C1CF13A92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroNetCore.Models", "src\MicroNetCore.Models\MicroNetCore.Models.csproj", "{38FFE18B-69F9-4669-AC75-763C1CF13A92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroNetCore.Models.Markup", "src\MicroNetCore.Models.Markup\MicroNetCore.Models.Markup.csproj", "{8319DEDE-0BA2-4472-9784-23CA0311556D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroNetCore.Models.Markup", "src\MicroNetCore.Models.Markup\MicroNetCore.Models.Markup.csproj", "{8319DEDE-0BA2-4472-9784-23CA0311556D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroNetCore.Models.Tests", "test\MicroNetCore.Models.Tests\MicroNetCore.Models.Tests.csproj", "{CDFB304D-0D56-4897-B725-A11D9905B34B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8319DEDE-0BA2-4472-9784-23CA0311556D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8319DEDE-0BA2-4472-9784-23CA0311556D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8319DEDE-0BA2-4472-9784-23CA0311556D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDFB304D-0D56-4897-B725-A11D9905B34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFB304D-0D56-4897-B725-A11D9905B34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFB304D-0D56-4897-B725-A11D9905B34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFB304D-0D56-4897-B725-A11D9905B34B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{38FFE18B-69F9-4669-AC75-763C1CF13A92} = {05A23D3F-D055-4085-BBEA-73B9B710F8F9}
 		{8319DEDE-0BA2-4472-9784-23CA0311556D} = {05A23D3F-D055-4085-BBEA-73B9B710F8F9}
+		{CDFB304D-0D56-4897-B725-A11D9905B34B} = {A483057A-1561-4F2B-B40E-088716AB7A53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DFE45741-5710-498B-AD11-48014C1243EF}
